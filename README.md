@@ -1,5 +1,7 @@
 # ccat.sh
 
+![](./samples/sample.png)
+
 ccat.sh is a wapper of Linux "cat" command, it provides a extensional option "-c" that makes output of "cat" colorful.
 
 The option "-c" means colorful.
@@ -20,6 +22,8 @@ $ echo "source ~/.config/ccat/ccat.sh" >> ~/.bashrc
 ```
 
 ## Custom highlighting style
+
+![](./samples/sample.gif)
 
 I wrote a script that shows all style in [Pygments](https://pygments.org/) supported.
 
