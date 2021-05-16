@@ -19,7 +19,8 @@ $ pip install Pygments
 Get ccat.sh from curl.
 
 ```
-$ curl --create-dirs -o ~/.config/ccat/ccat.sh https://raw.githubusercontent.com/Yooootsuba/ccat/master/ccat.sh
+$ curl --create-dirs -o ~/.config/ccat/ccat.sh \
+  https://raw.githubusercontent.com/Yooootsuba/ccat/master/ccat.sh
 ```
 
 Give ccat.sh executing permission.
@@ -58,8 +59,9 @@ Press "Enter" key until the style of you like appears, and copy the style name m
 $ python styles.py
 ```
 
-You will find the following line ```cat -n $arguments | pygmentize -g -O style=default``` in ```~/.config/ccat/ccat.sh```, then replace
-the ```default``` with your favorite style name.
+You will find the following line ```cat -n $arguments | pygmentize -g -O style=default``` in ```~/.config/ccat/ccat.sh```.
+
+Replace the ```default``` with your favorite style name.
 
 ```
 $ vim ~/.config/ccat/ccat.sh
