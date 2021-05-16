@@ -16,9 +16,34 @@ $ pip install Pygments
 
 ## Install
 
+Get ccat.sh from curl.
+
 ```
 $ curl --create-dirs -o ~/.config/ccat/ccat.sh https://raw.githubusercontent.com/Yooootsuba/ccat/master/ccat.sh
+```
+
+Give ccat.sh the permission of executing 
+
+```
+$ chmod +x ~/.config/ccat/ccat.sh
+```
+
+Load ccat.sh.
+
+```
 $ echo "source ~/.config/ccat/ccat.sh" >> ~/.bashrc
+```
+
+Use Linux "cat" through ccat.sh
+
+```
+$ echo "alias cat='~/.config/ccat/ccat.sh cat" >> ~/.bashrc
+```
+
+Reload your ~/.bashrc. Now you can use the "-c" option in Linux "cat".
+
+```
+$ source ~/.bashrc
 ```
 
 ## Custom highlighting style
