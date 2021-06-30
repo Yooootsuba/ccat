@@ -38,7 +38,7 @@ $ echo "source ~/.config/ccat/ccat.sh" >> ~/.bashrc
 Use Linux "cat" through ccat.sh.
 
 ```
-$ echo "alias cat='~/.config/ccat/ccat.sh cat" >> ~/.bashrc
+$ echo "alias cat='~/.config/ccat/ccat.sh cat'" >> ~/.bashrc
 ```
 
 Reload your ~/.bashrc. Now you can use the "-c" option in Linux "cat".
